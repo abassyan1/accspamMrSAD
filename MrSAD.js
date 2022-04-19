@@ -11,8 +11,8 @@ const jano6 = new Discord.Client();
 ///////// id vc dane hata bcheta vc 
 
 
-jano.on("ready", () => {
-  var join = jano.channels.get(""); /// id voice
+mrsad.on("ready", () => {
+  var join = mrsad.channels.get(""); /// id voice
   if (join) join.join();
 });
 ///////////////////
